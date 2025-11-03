@@ -1,0 +1,22 @@
+# Dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build/Transpilation
+/dist
+/build
+
+# Environment Variables (CRUCIAL para seguridad)
+# Si usas la librería 'dotenv' localmente, este archivo debe estar excluido:
+.env
+.env.development
+.env.production
+
+# OS and IDE files
+.DS_Store
+.vscode/
