@@ -35,8 +35,8 @@ app.get('/api/projects', async (req, res) => {
         
         // 2. Ejecuta la consulta SQL
         // 🚨 La sintaxis corregida: usa backticks (`) y no paréntesis ni comillas
-        const result = await sql`SELECT id, title, description, link_url, link_text FROM projects ORDER BY id DESC`;
-        
+        const result = await sql`SELECT id, title, description, link_url, link_text, image_url FROM projects ORDER BY id DESC`;
+
         // 3. Envía los resultados como JSON
         res.json(result); 
 
