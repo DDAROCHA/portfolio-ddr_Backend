@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 // === Configuración de CORS ===
 // 🚨 ¡IMPORTANTE! Reemplaza con el dominio REAL de tu portfolio en Netlify
-const NETLIFY_DOMAIN = 'https://tudominio-aqui.netlify.app'; 
+const NETLIFY_DOMAIN = 'https://my-favorite-sites.netlify.app'; 
 
 const corsOptions = {
   // Permite la conexión desde tu dominio de Netlify y desde el desarrollo local (localhost:3000)
